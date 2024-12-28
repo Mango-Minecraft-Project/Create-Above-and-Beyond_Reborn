@@ -1,0 +1,16 @@
+filename = 'MagicFeather-1.20.1-Forge-1.0.0.jar'
+name = 'Magic Feather: Replumed'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd776731a048f7a7d531594e06f83d6c4754e5e3c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5954106
+project-id = 978715

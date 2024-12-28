@@ -1,0 +1,16 @@
+filename = 'accessories_cclayer-7.4.0-beta.18+1.20.1.jar'
+name = 'Curios Compat Layer for Accessories'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '088227dc6195733eec20445e61b7a25fdaf263dd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5786436
+project-id = 1005683

@@ -1,0 +1,16 @@
+filename = 'BiomesOPlenty-forge-1.20.1-19.0.0.94.jar'
+name = "Biomes O' Plenty"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'b2476d95a48f5ff306471ff74690d85e793c67cb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6028852
+project-id = 220318

@@ -1,0 +1,16 @@
+filename = 'cc-tweaked-1.20.1-forge-1.113.1.jar'
+name = 'CC: Tweaked'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ca74a2ad65f149e7465e849b479abec863a82bf1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5714507
+project-id = 282001

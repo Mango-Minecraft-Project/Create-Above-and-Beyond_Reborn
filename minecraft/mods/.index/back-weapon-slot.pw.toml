@@ -1,0 +1,16 @@
+filename = 'curiosbackslot-4.0.6-nc.jar'
+name = 'Back Weapon Slot'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '26ddf1d4f10f6c3da38ae4b48cde987d30163700'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5836888
+project-id = 959303

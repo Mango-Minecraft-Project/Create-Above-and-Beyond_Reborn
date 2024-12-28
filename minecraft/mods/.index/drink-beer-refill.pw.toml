@@ -1,0 +1,16 @@
+filename = 'drinkbeer-refill-1.20.1-1.0.5.jar'
+name = 'Drink Beer Refill'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ab77c672b884def3a3957f36a764919b2417458e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5834463
+project-id = 729120

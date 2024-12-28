@@ -1,0 +1,16 @@
+filename = 'opolisutilities-1.20.1-2.11.4.jar'
+name = 'Opolis Utilities'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '107fb23bb78bb0c54e3c042be51762df3e8684f7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5318157
+project-id = 649644

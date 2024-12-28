@@ -1,0 +1,16 @@
+filename = 'DrawersTooltip-1.20.1-forge-8.0.0.jar'
+name = 'Drawers Tooltip'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1af87c87a1f9810eedd06515d41015e97ec862d4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4680046
+project-id = 381605

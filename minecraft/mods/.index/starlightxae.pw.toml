@@ -1,0 +1,16 @@
+filename = 'StarlightxAE-1.20.1-1.0-forge.jar'
+name = 'StarlightxAE'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b2e13eecc4badb5b60eb0d906d37074fe645296c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5239860
+project-id = 998801

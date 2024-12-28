@@ -1,0 +1,16 @@
+filename = 'sodiumdynamiclights-forge-1.0.9-1.20.1.jar'
+name = 'Sodium/Embeddium Dynamic Lights'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b8a1fedc1245e074806769f6fb2b2d8bc1772426'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5807537
+project-id = 551736

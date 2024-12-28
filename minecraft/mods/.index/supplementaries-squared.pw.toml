@@ -1,0 +1,16 @@
+filename = 'suppsquared-1.20-1.1.18.jar'
+name = 'Supplementaries Squared'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'fb91af02a1083709e1b0b2e2fcc2d09a6bdce291'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5930357
+project-id = 838411

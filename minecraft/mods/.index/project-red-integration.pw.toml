@@ -1,0 +1,16 @@
+filename = 'ProjectRed-1.20.1-4.20.0-beta+16-integration.jar'
+name = 'Project Red - Integration'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '7adbbdc705cae4ed74be7028fde9943f10f62b10'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6027642
+project-id = 229045

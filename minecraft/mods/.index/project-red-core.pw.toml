@@ -1,0 +1,16 @@
+filename = 'ProjectRed-1.20.1-4.20.0-beta+16-core.jar'
+name = 'Project Red - Core'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '4c8ffa655331dc8aabd2db3cf66345fac54724eb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6027637
+project-id = 228702

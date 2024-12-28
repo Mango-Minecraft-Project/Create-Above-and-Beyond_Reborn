@@ -1,0 +1,16 @@
+filename = 'strainers-1.20.1-1.7.4.jar'
+name = 'BBL Strainers'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'fe5a53e46a410c55a9aa9c20dbfde2854dde260d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5345851
+project-id = 882351
