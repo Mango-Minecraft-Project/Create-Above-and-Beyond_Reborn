@@ -1,11 +1,12 @@
 StartupEvents.registry("block", (event) => {
-  event
-    .create("enderium_casing")
-    .material("metal")
-    .hardness(4.0)
-  event.create("zinc_casing").material("metal").hardness(3.0);
-  event.create("invar_casing").material("metal").hardness(3.0);
-  event.create("fluix_casing").material("metal").hardness(3.0);
+  const casing_types = [
+    ["zinc", 3],
+    ["invar", 3],
+    ["fluix", 3],
+    ["enderium", 4],
+  ];
+  const casing_register = ([type, hardness]) => event.create(`${type}_casing`).material("metal").hardness(hardness);
+  casing_types.forEach(casing_register);
 
   event
     .create("ponder_laser_lamp")
@@ -21,23 +22,16 @@ StartupEvents.registry("block", (event) => {
     .renderType("translucent")
     .displayName("Laser Lamp (For Ponder)");
 
-  let machine = (name, layer) => {
-    let id = name.toLowerCase();
-    event
-      .create(id + "_machine")
-      .model("kubejs:block/" + id + "_machine")
-      .material("lantern")
-      .hardness(3.0)
-      .displayName(name + " Machine")
-      .notSolid()
-      .renderType(layer);
-  };
-
-  machine("Andesite", "solid");
-  machine("Brass", "translucent");
-  machine("Copper", "cutout");
-  machine("Zinc", "cutout");
-  machine("Enderium", "cutout");
+  const machine_types = [
+    ["andesite", "solid"],
+    ["brass", "translucent"],
+    ["copper", "cutout"],
+    ["zinc", "cutout"],
+    ["enderium", "cutout"],
+  ];
+  const machine_register = (type, layer) =>
+    event.create(`${type}_machine`).material("lantern").hardness(3.0).notSolid().renderType(layer);
+  machine_types.forEach(machine_register);
 
   for (i = 0; i < 15; i++)
     event
